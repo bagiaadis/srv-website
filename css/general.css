@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+  transition: all 1s;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+  background-color: rgb(243, 239, 236);
+  height: 100%;
+  margin: 0px;
+  line-height: 1.5;
+}
+
+h2 {
+  color: rgb(39, 102, 120);
+}
+
+h3 {
+  color: rgb(39, 102, 120);
+}
+

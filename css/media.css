@@ -1,0 +1,514 @@
+@media screen and (max-width: 1120px) {
+  
+  .ss-slider{
+    width: 100%;
+    height: 100vh;
+   }
+
+   .panel-flex-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .panel-flex-bot{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  
+  .panel-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 5rem;
+  }
+  
+  .panel-text h2{
+    font-size: 70px;
+  }
+
+  .panel-text p{
+    margin-top: 30px;
+  }
+  
+  .panel-pic{
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .qna-text{
+    font-size: 14px;
+  }
+
+  .qna-text p{
+    width: 400px;
+  }
+
+  .bio-flex{
+    font-size: 12px;
+    flex-direction: column;
+  }
+  
+  .left-bio{
+    margin-bottom: 40px;
+  }
+
+  .left-bio p, .right-bio p{
+    width: 400px;
+  }
+  
+  .quote-pic{
+    height: 50vh;
+  }
+
+  .quote-text{
+    font-size: 35px;
+    width: 400px;
+  }
+  .top-content label{
+    font-size: 14px;
+    padding: 0 15px;
+    margin: 0px;
+  }
+
+  .top-content h3{
+    display: none;
+  }
+
+  .gal-ctn h2{
+    font-size: 22px;
+  }
+
+  .photo-gallery{
+    grid-template-columns: repeat(2,1fr) ;
+    grid-gap: 35px;
+  }
+  .top-content{
+    flex-wrap: wrap;
+  }
+
+  .pic{
+    height: 190px;
+  }
+  
+  .maps-email-ctn{
+    flex-direction: column;
+  }
+  
+  .maps-email-ctn form{
+    display: flex;
+    flex-direction: column;
+    width: 55vh;
+    padding: 0 25px;
+    gap: 20px;
+    font-size: 15px;
+  }
+
+  .footer{
+    height: 60vh;
+    margin-top: 1000px;
+  }
+
+  .tst-col{
+    flex: 100%;
+    max-width: 80%;
+
+  }
+
+  }
+
+
+/* CHANGE SIZE SCREEN */
+/* CHANGE SIZE SCREEN */
+/* CHANGE SIZE SCREEN */
+/* CHANGE SIZE SCREEN */
+
+
+
+
+  @media screen and (max-width: 1400px) {
+  
+    .ss-slider{
+      width: 100%;
+      height: 100vh;
+     }
+  
+     .panel-flex-top{
+      display: flex;
+      align-items: center;
+      padding: 0;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+    }
+  
+    .panel-flex-bot{
+      display: flex;
+      align-items: center;
+      padding: 0;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+    }
+    
+    .panel-text{
+      display: flex;
+      align-items: center;
+      width: 400px;
+      font-weight: 500;
+      font-size: 16px;
+      margin-bottom: 5rem;
+    }
+    
+    .panel-text p{
+      margin-top: 30px;
+    }
+    
+    .panel-pic{
+      width: 650px;
+    }
+    
+    .qna-text{
+      font-size: 16px;
+    }
+  
+    .qna-text p{
+      width: 400px;
+    }
+  
+    .bio-flex{
+      font-size: 16px;
+    }
+    
+    .left-bio{
+      margin-bottom: 40px;
+    }
+  
+    .left-bio p, .right-bio p{
+      width: 500px;
+    }
+    
+    .quote-pic{
+      height: 50vh;
+    }
+  
+    .quote-text{
+      font-size: 35px;
+      width: 400px;
+    }
+    .top-content label{
+      font-size: 17px;
+      padding: 0 15px;
+      margin: 0px;
+    }
+  
+  
+    .gal-ctn h2{
+      font-size: 22px;
+    }
+  
+    .photo-gallery{
+      grid-template-columns: repeat(3,1fr) ;
+      grid-gap: 35px;
+    }
+    .top-content{
+      flex-wrap: wrap;
+    }
+  
+    .pic{
+      height: 190px;
+    }
+    
+    
+    .maps-email-ctn form{
+      display: flex;
+      width: 55vh;
+      gap: 20px;
+      font-size: 15px;
+    }
+  
+    .footer{
+      height: 60vh;
+      margin-top: 1000px;
+    }
+    }
+
+    /* CHANGE SIZE */
+
+    @media screen and (max-width: 600px) {
+
+      .gmaps-ctn p{
+        font-size: 13px
+      }
+  
+      .ss-slider{
+        width: 100%;
+        height: 100vh;
+       }
+    
+       .navigation{
+        padding: 0;
+        width: 100%;
+        font-size: 12px;
+        justify-content: space-evenly;
+        position: relative
+       }
+    
+       .panel-flex-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+      }
+    
+      .panel-flex-bot{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+      }
+      
+      .panel-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+        font-weight: 500;
+        font-size: 10px;
+        margin-bottom: 5rem;
+      }
+      
+      .panel-text p{
+        margin-top: 30px;
+      }
+      
+      .panel-pic{
+        width: 100%;
+        object-fit: cover;
+      }
+      
+      .qna-text{
+        font-size: 14px;
+      }
+    
+      .qna-text p{
+        width: 350px;
+      }
+    
+      .bio-flex{
+        font-size: 12px;
+        flex-direction: column;
+      }
+      
+      .left-bio{
+        margin-bottom: 40px;
+      }
+    
+      .left-bio p, .right-bio p{
+        width: 300px;
+      }
+
+      .book-flex img{
+        width: 100px;
+      }
+
+      .book-logo-1 button, .book-logo-2 button, .book-logo-3 button {
+        width: 100px;
+        height: 35px;
+      }
+      
+      .quote-pic{
+        height: 50vh;
+      }
+    
+      .quote-text{
+        font-size: 30px;
+        width: 400px;
+      }
+      .top-content label{
+        font-size: 10px;
+        padding: 0 10px;
+        margin: 0px;
+      }
+    
+      .top-content h3{
+        display: none;
+      }
+    
+      .gal-ctn h2{
+        font-size: 22px;
+      }
+    
+      .photo-gallery{
+        grid-template-columns: repeat(2,1fr) ;
+        grid-gap: 35px;
+      }
+      .top-content{
+        flex-wrap: wrap;
+      }
+    
+      .pic{
+        height: 190px;
+      }
+
+      .contact-info-ctn{
+        width: 300px;
+        font-size: 12px;
+        justify-content: space-evenly;
+        padding-left: 50px;
+      }
+      
+      
+      .maps-email-ctn{
+        flex-direction: column;
+      }
+      
+      .maps-email-ctn form{
+        display: flex;
+        flex-direction: column;
+        width: 40vh;
+        padding: 0 25px;
+        gap: 20px;
+        font-size: 15px;
+      }
+
+    
+      .footer{
+        height: 60vh;
+        margin-top: 1000px;
+      }
+    
+      .mobile-maps {
+        display: inline-block;
+      }
+
+      .mobile-maps2 {
+        display: none;
+      }
+
+      .gotopbtn{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+        right: 25px;
+      }
+
+      .wa-fix-btn img{
+        width: 40px;
+      }
+
+      .wa-fix-btn{
+        right: 20px;
+      }
+
+      .col{
+        flex: 100%;
+        max-width: 100%;
+        
+      }
+      }
+
+       /* CHANGE SIZE */
+
+    @media screen and (max-width: 400px){
+
+      header.logo img{
+        width: 100px;
+      }
+
+
+
+      .top-content label{
+        font-size: 9px;
+        padding: 0 10px;
+        margin: 0px;
+      }
+    
+      .top-content h3{
+        display: none;
+      }
+    
+      .gal-ctn h2{
+        font-size: 22px;
+      }
+    
+      .photo-gallery{
+        grid-template-columns: repeat(2,1fr) ;
+        grid-gap: 35px;
+      }
+      .top-content{
+        flex-wrap: wrap;
+      }
+    
+      .pic{
+        height: 190px;
+      }
+
+            .gotopbtn{
+        display: none;
+      }
+
+      
+    }
+  
+
+    @media (max-width:1047px){
+
+      header .logo img{
+        width: 200px;
+      }
+
+      header{
+        padding: 13px;
+      }
+
+      header label{
+        display: initial;
+      }
+
+      header .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: rgb(39, 102, 120);
+        border-top: 1px solid rgba(0 , 0, 0, .1);
+        display: none;
+        text-decoration: none;
+      }
+
+      header .navbar ul li{
+        width: 100%;
+      }
+
+      header .navbar ul li ul{
+          position: relative;
+          width: 100%;
+      }
+
+      header .navbar ul li ul li{
+        background: rgb(30, 78, 92);
+      }
+
+      #menu-bar:checked ~ .navbar{
+        display: initial;
+        transition: all .5s;
+      }
+
+
+
+
+    }
